@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# 后台与内部目录：禁止抓取
+Disallow: /admin/
+Disallow: /cms/
+Disallow: /_cms/
+Disallow: /_tools/
+Disallow: /_check/
+
+# 注意：不要屏蔽 /css/ 与 /js/。
+# Googlebot 需要抓取样式与脚本才能渲染页面、判定移动端适配与加载性能。
+# 屏蔽后会导致「移动设备适合性」检测失败，直接影响排名。
+
+Sitemap: https://www.krdeburring.com/sitemap.xml
