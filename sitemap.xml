@@ -1,51 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- ============================================================
+       krdeburring.com 站点地图（博客版）
+       说明：本站 8 个原有页面（/、/products.html、/br-series.html、
+       /bb-series.html、/r-series.html、/consumables.html、/about.html、
+       /contact.html）已按迁移方案 301 至 kr-machinery.com，
+       故这些 URL 应从本 sitemap 移除（不要保留已跳转的 URL）。
+       本 sitemap 只保留「博客栏目」的新 URL。
+       若首页 / 最终不跳转而要保留为内容站入口，请取消下方首页条目的注释。
+       ============================================================ -->
+
+  <!-- 首页：不跳转，作为博客站入口保留 -->
   <url>
     <loc>https://www.krdeburring.com/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- 博客栏目首页 -->
   <url>
-    <loc>https://www.krdeburring.com/products.html</loc>
-    <lastmod>2026-09-01</lastmod>
+    <loc>https://www.krdeburring.com/blog/</loc>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
+
+  <!-- 选型指南 -->
   <url>
-    <loc>https://www.krdeburring.com/br-series.html</loc>
-    <lastmod>2026-09-01</lastmod>
+    <loc>https://www.krdeburring.com/blog/how-to-choose-a-metal-deburring-machine.html</loc>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
+
+  <!-- 技术文章 -->
   <url>
-    <loc>https://www.krdeburring.com/bb-series.html</loc>
-    <lastmod>2026-09-01</lastmod>
+    <loc>https://www.krdeburring.com/blog/how-to-remove-burrs-from-laser-cut-parts.html</loc>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.krdeburring.com/r-series.html</loc>
-    <lastmod>2026-09-01</lastmod>
+    <loc>https://www.krdeburring.com/blog/deburring-vs-chamfering.html</loc>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.krdeburring.com/consumables.html</loc>
-    <lastmod>2026-09-03</lastmod>
+    <loc>https://www.krdeburring.com/blog/stainless-steel-deburring-guide.html</loc>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
   </url>
-  <url>
-    <loc>https://www.krdeburring.com/about.html</loc>
-    <lastmod>2026-09-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.krdeburring.com/contact.html</loc>
-    <lastmod>2026-09-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
+
 </urlset>
